@@ -6,7 +6,11 @@ form #btn {
     background-color: blueviolet;
     font-family: fantasy;
     color: cornsilk;
-    
+
+}
+form #btn:hover{
+    background-color: teal;
+    cursor: pointer;
 }
 
 body {
