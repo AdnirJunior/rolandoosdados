@@ -46,6 +46,17 @@ body {
         color: black;
         border-radius: 5px;
     }
+    h1{
+        max-width: 900px;
+        justify-content: center;
+        display: flex;
+    }
+    form{
+        max-width: 900px;
+    }
+    form #btn{
+        margin: 30px;
+    }
     form #btn:hover{
         background-color: rgb(19, 173, 19);
         cursor: grab;
@@ -54,6 +65,13 @@ body {
     h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: blueviolet;
-
+        }
+    form{
+        display: flex;
+        justify-content: space-between
+        
+    }
+    #container{
+        align-items: center;
     }
   }
