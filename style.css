@@ -36,3 +36,19 @@ body {
 #container1{
     padding: 15px;
 }
+
+@media screen and (min-width: 600px) {
+    .minhaBarra {
+        background: rgb(180, 180, 192); 
+        border: 2px solid white;
+        height: 20px; 
+        margin: 10px; 
+        color: black;
+        border-radius: 5px;
+    }
+    form #btn:hover{
+        background-color: rgb(19, 173, 19);
+        cursor: grab;
+    }
+
+  }
